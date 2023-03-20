@@ -1,0 +1,154 @@
+
+@import url(normalize.css);
+
+.nav {
+    position: fixed;
+    background-color: rgba(255, 255, 255, 0.605);
+   left: 0;
+   right: 0;
+    padding: 15px;
+    display: flex;
+    justify-content:space-between;
+    z-index: 99;
+    
+    
+    
+}
+
+.nav a {
+    text-decoration: none;
+    color: black;
+    transition: 500ms;
+    padding: 10px;
+    border-radius: 5px;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-size: large;
+    border: 1px solid rgb(168, 160, 160);
+}
+
+.nav a:hover {
+    background-color:white;
+
+}
+
+.slide {
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+
+
+    
+}
+
+body::-webkit-scrollbar {
+    width: 0;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  .go-up {
+    background-image: url(img/upload.png);
+    width: 50px;
+    height: 40px;
+    background-size: cover;
+    position: fixed;
+    right: 50px;
+    bottom: 50px;
+  }
+
+  .go-up a {
+    display: block;
+    height: 100%;
+  }
+
+   /* .links {  */
+    /* background-image: url(img/icons8-телеграмма-app-48.png); */
+    /* height: 50px; */
+    /* width: 50px; */
+    /* position: absolute; */
+    /* bottom: 20px; */
+    /* right: 500px; */
+  /* } */
+ 
+
+  .booking {
+    position: absolute;
+    right: 0px;
+    bottom: 300px;
+  }
+
+  .booking:hover {
+    animation: bounce 1s;
+  }
+
+  .booking a {
+    text-decoration: none;
+    color: rgb(35, 33, 33);
+    font-size: large;
+    background-color: whitesmoke;
+    padding: 12px;
+    border-radius: 5px 0 0 5px;
+  }
+
+.contact {
+
+  width: 40%;
+  padding-top: 200px;
+  padding-left: 400px;
+  /* position: absolute; */
+  /* right: 400px; */
+  /* top: 150px; */
+
+
+}
+
+p {
+  color:black;
+  font-size: 20px;
+  font-style: italic;
+  background-color: rgba(255, 255, 255, 0.605);
+  padding: 25px;
+  border-radius: 5px;
+}
+
+.price {
+  position: absolute;
+  right: 600px;
+  bottom: 300px;
+}
+
+.price:hover {
+  animation: bounce 1s;
+}
+
+.price a {
+  text-decoration: none;
+  color: rgb(35, 33, 33);
+  font-size: large;
+  background-color: whitesmoke;
+  padding: 12px;
+  border-radius: 5px;
+}
+
+@keyframes bounce {
+	0%, 20%, 60%, 100% {
+		transform: translateY(0);
+		transform: translateY(0);
+	}
+
+	40% {
+		transform: translateY(-20px);
+		transform: translateY(-20px);
+	}
+
+	80% {
+		transform: translateY(-10px);
+		transform: translateY(-10px);
+	}
+}
+
+ 
